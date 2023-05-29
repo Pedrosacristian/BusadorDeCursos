@@ -1,0 +1,22 @@
+{
+    "name": "pedrosacristian/buscador-cursos",
+    "description": "Projeto que busca cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pedrosacristian\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristian Pedrosa",
+            "email": "cristianpedrosa10@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.2",
+        "symfony/css-selector": "^6.2"     
+}
+
+}
