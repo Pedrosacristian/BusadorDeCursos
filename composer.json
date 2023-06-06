@@ -2,9 +2,11 @@
     "name": "pedrosacristian/buscador-cursos",
     "description": "Projeto que busca cursos no site da Alura",
     "type": "library",
+
     "autoload": {
+        "files": ["./functions.php"],
         "psr-4": {
-            "Pedrosacristian\\BuscadorCursos\\": "src/"
+         "Alura\\BuscadorDeCursos\\": "src/"
         }
     },
     "authors": [
@@ -18,5 +20,5 @@
         "symfony/dom-crawler": "^6.2",
         "symfony/css-selector": "^6.2"     
 }
-
+ 
 }
