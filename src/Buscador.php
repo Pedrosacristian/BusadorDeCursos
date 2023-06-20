@@ -14,7 +14,7 @@ class Buscador
    /**
     * @var Crawler
     */
-    private $crawler; 
+    private $crawler;
 
    public function __construct(ClientInterface $httpClient, Crawler $crawler) 
    {
